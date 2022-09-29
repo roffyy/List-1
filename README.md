@@ -126,9 +126,9 @@ Write a program that reads two dates (inputs: day, month and year): the date of 
 To calculate the day of Easter (Sunday), the formula below is used, where the YEAR must be entered
 with 4 digits and X and Y are given by the following table.
 ```python
-a = ANO % 19
-b = ANO % 4
-c = ANO % 7
+a = YEAR % 19
+b = YEAR % 4
+c = YEAR % 7
 d = (19 × a + X) % 30
 e = (2 × b + 4 × c + 6 × d + Y ) % 7
 ```
